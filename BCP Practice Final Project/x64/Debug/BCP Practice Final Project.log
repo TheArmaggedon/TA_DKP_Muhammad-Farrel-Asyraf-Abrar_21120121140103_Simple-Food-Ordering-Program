@@ -1,0 +1,19 @@
+﻿  MyForm.cpp
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(44,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(45,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(46,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(47,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(48,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(49,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm.cpp(8,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MyForm1.cpp
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(44,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(45,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(46,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(47,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(48,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\MyForm1.h(49,1): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+  Generating Code...
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\Credentials.h(35): warning C4715: 'adminLogin::adminLoginProcess::checkCredentials': not all control paths return a value
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  BCP Practice Final Project.vcxproj -> C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCP Practice Final Project.exe

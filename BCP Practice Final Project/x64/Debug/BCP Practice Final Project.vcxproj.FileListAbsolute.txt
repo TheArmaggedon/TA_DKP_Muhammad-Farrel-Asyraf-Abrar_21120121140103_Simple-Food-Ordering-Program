@@ -1,0 +1,9 @@
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCP Practice Final Project.vcxproj.AssemblyReference.cache
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCP Practice Final Project.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCP Practice Final Project.exe
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCPPracticeFinalProject.MyForm.resources
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCP Practice Final Project.vcxproj.GenerateResource.cache
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCPPracticeFinalProject.MyForm1.resources
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCPPracticeFinalProject.MyForm2.resources
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCPPracticeFinalProject.MyForm3.resources
+C:\Users\farre\OneDrive\Documents\Kuliah SMT 2\BCP Practice\Final Project\BCP Practice Final Project\x64\Debug\BCPPracticeFinalProject.MyForm4.resources
