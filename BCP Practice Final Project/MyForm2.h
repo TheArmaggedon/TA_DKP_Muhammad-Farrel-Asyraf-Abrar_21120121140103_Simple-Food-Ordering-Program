@@ -53,7 +53,7 @@ namespace BCPPracticeFinalProject {
 
 			this->theBill->Text = line1 + line2 + line3 + line4 + line5 + line6 + "\n" +
 				"Thanks for your order!\n Please proceed to our cashier\n for payment and order retrieval!";
-
+			this->thankYou->Image = Image::FromFile("Thank you gif animated (this better work!).gif");
 				
 			
 
@@ -77,6 +77,7 @@ namespace BCPPracticeFinalProject {
 	private: String^ line1 =""; String^ line2 =""; String^ line3 =""; String^ line4 =""; String^ line5 =""; String^ line6 ="";
 	private: int amount1; int amount2; int amount3; int amount4; int amount5; int amount6;
 	private: System::Windows::Forms::Button^ okButton;
+	private: System::Windows::Forms::PictureBox^ thankYou;
 	private:
 		/// <summary>
 		/// Required designer variable.
@@ -94,6 +95,8 @@ namespace BCPPracticeFinalProject {
 			this->orderSummaryLabel = (gcnew System::Windows::Forms::Label());
 			this->theBill = (gcnew System::Windows::Forms::Label());
 			this->okButton = (gcnew System::Windows::Forms::Button());
+			this->thankYou = (gcnew System::Windows::Forms::PictureBox());
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->thankYou))->BeginInit();
 			this->SuspendLayout();
 			// 
 			// orderSummaryLabel
@@ -126,12 +129,22 @@ namespace BCPPracticeFinalProject {
 			// 
 			this->okButton->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"okButton.BackgroundImage")));
 			this->okButton->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->okButton->Location = System::Drawing::Point(560, 569);
+			this->okButton->Location = System::Drawing::Point(536, 676);
 			this->okButton->Name = L"okButton";
 			this->okButton->Size = System::Drawing::Size(238, 61);
 			this->okButton->TabIndex = 2;
 			this->okButton->UseVisualStyleBackColor = true;
 			this->okButton->Click += gcnew System::EventHandler(this, &MyForm2::okButton_Click);
+			// 
+			// thankYou
+			// 
+			this->thankYou->BackColor = System::Drawing::Color::Transparent;
+			this->thankYou->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
+			this->thankYou->Location = System::Drawing::Point(496, 434);
+			this->thankYou->Name = L"thankYou";
+			this->thankYou->Size = System::Drawing::Size(318, 236);
+			this->thankYou->TabIndex = 3;
+			this->thankYou->TabStop = false;
 			// 
 			// MyForm2
 			// 
@@ -139,11 +152,13 @@ namespace BCPPracticeFinalProject {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->ClientSize = System::Drawing::Size(1366, 768);
+			this->Controls->Add(this->thankYou);
 			this->Controls->Add(this->okButton);
 			this->Controls->Add(this->theBill);
 			this->Controls->Add(this->orderSummaryLabel);
 			this->Name = L"MyForm2";
 			this->Text = L"MyForm2";
+			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->thankYou))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
