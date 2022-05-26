@@ -214,12 +214,13 @@ namespace BCPPracticeFinalProject {
 			this->label1->Font = (gcnew System::Drawing::Font(L"ESSTIXThirteen", 24, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->label1->ForeColor = System::Drawing::Color::White;
-			this->label1->Location = System::Drawing::Point(467, 9);
+			this->label1->Location = System::Drawing::Point(383, 9);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(479, 39);
+			this->label1->Size = System::Drawing::Size(624, 39);
 			this->label1->TabIndex = 35;
-			this->label1->Text = L"Welcome to Farrel\'s Buffet";
+			this->label1->Text = L"Welcome to Farrel\'s Family Eatery";
 			this->label1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;
+			
 			// 
 			// adminLoginButton
 			// 
@@ -242,7 +243,8 @@ namespace BCPPracticeFinalProject {
 			this->Controls->Add(this->label1);
 			this->Controls->Add(this->startOrder);
 			this->Name = L"MyForm";
-			this->Text = L"MyForm";
+			this->Text = L"Main Menu";
+			
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -288,5 +290,7 @@ namespace BCPPracticeFinalProject {
 	
 	
 
-	};
+	
+
+};
 }

@@ -161,7 +161,7 @@ namespace BCPPracticeFinalProject {
 			this->Controls->Add(this->usernameInput);
 			this->Controls->Add(this->usernameLabel);
 			this->Name = L"MyForm3";
-			this->Text = L"MyForm3";
+			this->Text = L"Login Page";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -174,7 +174,9 @@ namespace BCPPracticeFinalProject {
 		if (loginObj.checkCredentials()) {
 			this->Hide();
 			formObj4->ShowDialog();
-			this->Show();
+			this->usernameInput->Text = "";
+			this->passwordInput->Text = "";
+			this->Hide();
 		}
 		else {
 			MessageBox::Show("Incorrect login credentials! Try again");

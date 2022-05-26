@@ -160,7 +160,7 @@ namespace BCPPracticeFinalProject {
 			this->Controls->Add(this->theBill);
 			this->Controls->Add(this->orderSummaryLabel);
 			this->Name = L"MyForm2";
-			this->Text = L"MyForm2";
+			this->Text = L"Order Summary Page";
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->thankYou))->EndInit();
 			this->ResumeLayout(false);
 			this->PerformLayout();

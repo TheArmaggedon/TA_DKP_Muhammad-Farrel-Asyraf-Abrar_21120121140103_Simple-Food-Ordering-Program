@@ -264,7 +264,7 @@ namespace BCPPracticeFinalProject {
 			this->Controls->Add(this->newBurgerPriceLabel);
 			this->Controls->Add(this->burgerPriceInput);
 			this->Name = L"MyForm4";
-			this->Text = L"MyForm4";
+			this->Text = L"Edit Item Price Page";
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
