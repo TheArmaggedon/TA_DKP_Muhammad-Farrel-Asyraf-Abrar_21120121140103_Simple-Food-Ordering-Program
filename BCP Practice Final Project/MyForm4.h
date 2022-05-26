@@ -100,7 +100,6 @@ namespace BCPPracticeFinalProject {
 			this->burgerPriceInput->Name = L"burgerPriceInput";
 			this->burgerPriceInput->Size = System::Drawing::Size(194, 22);
 			this->burgerPriceInput->TabIndex = 49;
-			this->burgerPriceInput->Visible = true;
 			this->burgerPriceInput->WordWrap = false;
 			// 
 			// newBurgerPriceLabel
@@ -110,20 +109,18 @@ namespace BCPPracticeFinalProject {
 			this->newBurgerPriceLabel->Font = (gcnew System::Drawing::Font(L"ESSTIXThirteen", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
 			this->newBurgerPriceLabel->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->newBurgerPriceLabel->Location = System::Drawing::Point(461, 185);
+			this->newBurgerPriceLabel->Location = System::Drawing::Point(440, 186);
 			this->newBurgerPriceLabel->Name = L"newBurgerPriceLabel";
 			this->newBurgerPriceLabel->Size = System::Drawing::Size(117, 20);
 			this->newBurgerPriceLabel->TabIndex = 55;
 			this->newBurgerPriceLabel->Text = L"Burger Price";
-			this->newBurgerPriceLabel->Visible = true;
 			// 
 			// fRicePriceInput
 			// 
-			this->fRicePriceInput->Location = System::Drawing::Point(584, 239);
+			this->fRicePriceInput->Location = System::Drawing::Point(582, 239);
 			this->fRicePriceInput->Name = L"fRicePriceInput";
-			this->fRicePriceInput->Size = System::Drawing::Size(193, 22);
+			this->fRicePriceInput->Size = System::Drawing::Size(195, 22);
 			this->fRicePriceInput->TabIndex = 56;
-			this->fRicePriceInput->Visible = true;
 			this->fRicePriceInput->WordWrap = false;
 			// 
 			// newFRicePriceLabel
@@ -132,12 +129,11 @@ namespace BCPPracticeFinalProject {
 			this->newFRicePriceLabel->BackColor = System::Drawing::Color::Transparent;
 			this->newFRicePriceLabel->Font = (gcnew System::Drawing::Font(L"ESSTIXThirteen", 12));
 			this->newFRicePriceLabel->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->newFRicePriceLabel->Location = System::Drawing::Point(428, 241);
+			this->newFRicePriceLabel->Location = System::Drawing::Point(407, 241);
 			this->newFRicePriceLabel->Name = L"newFRicePriceLabel";
 			this->newFRicePriceLabel->Size = System::Drawing::Size(150, 20);
 			this->newFRicePriceLabel->TabIndex = 57;
 			this->newFRicePriceLabel->Text = L"Fried Rice Price";
-			this->newFRicePriceLabel->Visible = true;
 			// 
 			// newChickenBiryaniLabel
 			// 
@@ -145,20 +141,18 @@ namespace BCPPracticeFinalProject {
 			this->newChickenBiryaniLabel->BackColor = System::Drawing::Color::Transparent;
 			this->newChickenBiryaniLabel->Font = (gcnew System::Drawing::Font(L"ESSTIXThirteen", 12));
 			this->newChickenBiryaniLabel->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->newChickenBiryaniLabel->Location = System::Drawing::Point(381, 283);
+			this->newChickenBiryaniLabel->Location = System::Drawing::Point(360, 283);
 			this->newChickenBiryaniLabel->Name = L"newChickenBiryaniLabel";
 			this->newChickenBiryaniLabel->Size = System::Drawing::Size(197, 20);
 			this->newChickenBiryaniLabel->TabIndex = 58;
 			this->newChickenBiryaniLabel->Text = L"Chicken Biryani Price";
-			this->newChickenBiryaniLabel->Visible = true;
 			// 
 			// chickenBiryaniPriceInput
 			// 
-			this->chickenBiryaniPriceInput->Location = System::Drawing::Point(584, 283);
+			this->chickenBiryaniPriceInput->Location = System::Drawing::Point(582, 283);
 			this->chickenBiryaniPriceInput->Name = L"chickenBiryaniPriceInput";
-			this->chickenBiryaniPriceInput->Size = System::Drawing::Size(192, 22);
+			this->chickenBiryaniPriceInput->Size = System::Drawing::Size(194, 22);
 			this->chickenBiryaniPriceInput->TabIndex = 59;
-			this->chickenBiryaniPriceInput->Visible = true;
 			this->chickenBiryaniPriceInput->WordWrap = false;
 			// 
 			// newOrangeJuicePriceLabel
@@ -167,20 +161,19 @@ namespace BCPPracticeFinalProject {
 			this->newOrangeJuicePriceLabel->BackColor = System::Drawing::Color::Transparent;
 			this->newOrangeJuicePriceLabel->Font = (gcnew System::Drawing::Font(L"ESSTIXThirteen", 12));
 			this->newOrangeJuicePriceLabel->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->newOrangeJuicePriceLabel->Location = System::Drawing::Point(404, 326);
+			this->newOrangeJuicePriceLabel->Location = System::Drawing::Point(383, 326);
 			this->newOrangeJuicePriceLabel->Name = L"newOrangeJuicePriceLabel";
 			this->newOrangeJuicePriceLabel->Size = System::Drawing::Size(174, 20);
 			this->newOrangeJuicePriceLabel->TabIndex = 60;
 			this->newOrangeJuicePriceLabel->Text = L"Orange Juice Price";
-			this->newOrangeJuicePriceLabel->Visible = true;
+			this->newOrangeJuicePriceLabel->Click += gcnew System::EventHandler(this, &MyForm4::newOrangeJuicePriceLabel_Click);
 			// 
 			// orangeJuicePriceInput
 			// 
-			this->orangeJuicePriceInput->Location = System::Drawing::Point(584, 324);
+			this->orangeJuicePriceInput->Location = System::Drawing::Point(582, 324);
 			this->orangeJuicePriceInput->Name = L"orangeJuicePriceInput";
-			this->orangeJuicePriceInput->Size = System::Drawing::Size(193, 22);
+			this->orangeJuicePriceInput->Size = System::Drawing::Size(195, 22);
 			this->orangeJuicePriceInput->TabIndex = 61;
-			this->orangeJuicePriceInput->Visible = true;
 			this->orangeJuicePriceInput->WordWrap = false;
 			// 
 			// newMineralWaterPricePrice
@@ -189,20 +182,18 @@ namespace BCPPracticeFinalProject {
 			this->newMineralWaterPricePrice->BackColor = System::Drawing::Color::Transparent;
 			this->newMineralWaterPricePrice->Font = (gcnew System::Drawing::Font(L"ESSTIXThirteen", 12));
 			this->newMineralWaterPricePrice->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->newMineralWaterPricePrice->Location = System::Drawing::Point(392, 362);
+			this->newMineralWaterPricePrice->Location = System::Drawing::Point(371, 361);
 			this->newMineralWaterPricePrice->Name = L"newMineralWaterPricePrice";
 			this->newMineralWaterPricePrice->Size = System::Drawing::Size(186, 20);
 			this->newMineralWaterPricePrice->TabIndex = 62;
 			this->newMineralWaterPricePrice->Text = L"Mineral Water Price";
-			this->newMineralWaterPricePrice->Visible = true;
 			// 
 			// chocoMilkshakePriceInput
 			// 
-			this->chocoMilkshakePriceInput->Location = System::Drawing::Point(584, 395);
+			this->chocoMilkshakePriceInput->Location = System::Drawing::Point(582, 395);
 			this->chocoMilkshakePriceInput->Name = L"chocoMilkshakePriceInput";
-			this->chocoMilkshakePriceInput->Size = System::Drawing::Size(192, 22);
+			this->chocoMilkshakePriceInput->Size = System::Drawing::Size(194, 22);
 			this->chocoMilkshakePriceInput->TabIndex = 63;
-			this->chocoMilkshakePriceInput->Visible = true;
 			this->chocoMilkshakePriceInput->WordWrap = false;
 			// 
 			// submitNewPriceButton
@@ -216,7 +207,6 @@ namespace BCPPracticeFinalProject {
 			this->submitNewPriceButton->TabIndex = 64;
 			this->submitNewPriceButton->Text = L"Submit";
 			this->submitNewPriceButton->UseVisualStyleBackColor = false;
-			this->submitNewPriceButton->Visible = true;
 			this->submitNewPriceButton->Click += gcnew System::EventHandler(this, &MyForm4::submitNewPriceButton_Click);
 			// 
 			// label1
@@ -239,20 +229,18 @@ namespace BCPPracticeFinalProject {
 			this->newChocoMilkshakePriceLabel->Font = (gcnew System::Drawing::Font(L"ESSTIXThirteen", 12, System::Drawing::FontStyle::Regular,
 				System::Drawing::GraphicsUnit::Point, static_cast<System::Byte>(0)));
 			this->newChocoMilkshakePriceLabel->ForeColor = System::Drawing::SystemColors::ButtonHighlight;
-			this->newChocoMilkshakePriceLabel->Location = System::Drawing::Point(335, 396);
+			this->newChocoMilkshakePriceLabel->Location = System::Drawing::Point(314, 396);
 			this->newChocoMilkshakePriceLabel->Name = L"newChocoMilkshakePriceLabel";
 			this->newChocoMilkshakePriceLabel->Size = System::Drawing::Size(243, 20);
 			this->newChocoMilkshakePriceLabel->TabIndex = 66;
 			this->newChocoMilkshakePriceLabel->Text = L"Chocolate Milkshake Price";
-			this->newChocoMilkshakePriceLabel->Visible = true;
 			// 
 			// mineralWaterPriceInput
 			// 
-			this->mineralWaterPriceInput->Location = System::Drawing::Point(583, 360);
+			this->mineralWaterPriceInput->Location = System::Drawing::Point(582, 360);
 			this->mineralWaterPriceInput->Name = L"mineralWaterPriceInput";
-			this->mineralWaterPriceInput->Size = System::Drawing::Size(193, 22);
+			this->mineralWaterPriceInput->Size = System::Drawing::Size(194, 22);
 			this->mineralWaterPriceInput->TabIndex = 67;
-			this->mineralWaterPriceInput->Visible = true;
 			this->mineralWaterPriceInput->WordWrap = false;
 			// 
 			// MyForm4
@@ -311,5 +299,7 @@ namespace BCPPracticeFinalProject {
 		MessageBox::Show("Price update successful");
 		this->Hide();
 	}
+private: System::Void newOrangeJuicePriceLabel_Click(System::Object^ sender, System::EventArgs^ e) {
+}
 };
 }

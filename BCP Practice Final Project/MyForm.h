@@ -269,10 +269,10 @@ namespace BCPPracticeFinalProject {
 
 	}
 	private: System::Void adminLoginButton_Click(System::Object^ sender, System::EventArgs^ e) {
-		MyForm3^ form3Obj = gcnew MyForm3;
+		MyForm3^ form3Obj = gcnew MyForm3; //when the admin login button is pressed
 		this->Hide();
-		form3Obj->ShowDialog();
-		this->Show();
+		form3Obj->ShowDialog(); //show admin login window
+		this->Show(); //when finished with admin login, show the main menu window
 
 
 

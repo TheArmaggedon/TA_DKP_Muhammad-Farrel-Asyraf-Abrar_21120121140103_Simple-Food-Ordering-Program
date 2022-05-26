@@ -46,12 +46,15 @@ namespace BCPPracticeFinalProject {
 			if (amount6 > 0) {
 				line6 = "Chocolate milkshake(x" + amount6 + ") IDR " + menuObj2.calculateChocoMilkshakeTotal(amount6) + "\n";
 			}
+			total =  menuObj2.calculateBurgerTotal(amount1) + menuObj2.calculateFriedRiceTotal(amount2) + menuObj2.calculateChickenBriyaniTotal(amount3)
+				+ menuObj2.calculateOrangeJuiceTotal(amount4) + menuObj2.calculateMineralWaterTotal(amount5) + menuObj2.calculateChocoMilkshakeTotal(amount6);
+			totalStr = "Total IDR " + total;
 			
 			
 			
 			
 
-			this->theBill->Text = line1 + line2 + line3 + line4 + line5 + line6 + "\n" +
+			this->theBill->Text = line1 + line2 + line3 + line4 + line5 + line6 + "\n" + totalStr + "\n" +
 				"Thanks for your order!\n Please proceed to our cashier\n for payment and order retrieval!";
 			this->thankYou->Image = Image::FromFile("Thank you gif animated (this better work!).gif");
 				
@@ -74,8 +77,8 @@ namespace BCPPracticeFinalProject {
 	private: System::Windows::Forms::Label^ orderSummaryLabel;
 	protected:
 	private: System::Windows::Forms::Label^ theBill;
-	private: String^ line1 =""; String^ line2 =""; String^ line3 =""; String^ line4 =""; String^ line5 =""; String^ line6 ="";
-	private: int amount1; int amount2; int amount3; int amount4; int amount5; int amount6;
+	private: String^ line1 = ""; String^ line2 = ""; String^ line3 = ""; String^ line4 = ""; String^ line5 = ""; String^ line6 = ""; String^ totalStr = "";
+	private: int amount1; int amount2; int amount3; int amount4; int amount5; int amount6; int total;
 	private: System::Windows::Forms::Button^ okButton;
 	private: System::Windows::Forms::PictureBox^ thankYou;
 	private:

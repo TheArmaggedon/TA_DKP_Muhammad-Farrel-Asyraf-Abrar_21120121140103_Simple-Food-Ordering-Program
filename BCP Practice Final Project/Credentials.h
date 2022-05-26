@@ -8,7 +8,7 @@ namespace adminLogin {
 	ref class adminLoginProcess {
 
 	private:
-		static array<String^, 2>^ adminCredentials = gcnew array <String^, 2>{{"OwnerFarrel", "AnExtremelyComplicatedPassword"}};
+		static array<String^, 2>^ adminCredentials = gcnew array <String^, 2>{ {"OwnerFarrel", "AnExtremelyComplicatedPassword"}, { "ExoAdmin", "ExoPassword" }};
 		static String^ userName;
 		static String^ password;
 		
@@ -28,10 +28,9 @@ namespace adminLogin {
 
 					return true;
 				}
-				else {
-					return false;
-				}
+				
 			}
+			return false;
 		}
 	};
 	
